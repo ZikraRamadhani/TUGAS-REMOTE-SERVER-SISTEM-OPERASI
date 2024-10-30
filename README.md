@@ -20,10 +20,11 @@ Langkah - Langkah :
 2. Buka VMbox, dan buat machine menggunakan file pack iso yang sudah diinstall (Linux Desktop dan Linux Server)
 3. Jalankan machine yang sudah dibuat, dan buka machine Linux Server
 4. Install OpenSSH di Linux Server dengan command "$ sudo install openssh-server"
-5. Apabila sudah diinstall, cek status OpenSSH dengan menggunakan command "$ sudo apt status ssh"
-6. Apabila OpenSSH sudah dalam kondisi aktif, lakukan cek ip adress untuk menyambungkan server dengan Linux Desktop dengan menggunakan command "$ ip a"
-7. Buka machine Linux Desktop
-8. Install OpenSSH di terminal dengan menggunakan command "$ sudo apt install openssh-client"
-9. Setelah terinstall, cek status OpenSSH dengan menggunakan command "$ sudo apt status ssh"
-10. Apabila OpenSSH sudah berjalan, input command "username@ipadress" untuk menyambungkan server dengan Linux Desktop (username : zkraaa, ip adress : 192.168.52.95)
-11. Server sudah tersambung. 
+   ![alt text](https://github.com/ZikraRamadhani/TUGAS-REMOTE-SERVER-SISTEM-OPERASI/blob/images/Screenshot%202024-10-30%20221818.png?raw=true)
+6. Apabila sudah diinstall, cek status OpenSSH dengan menggunakan command "$ sudo apt status ssh"
+7. Apabila OpenSSH sudah dalam kondisi aktif, lakukan cek ip adress untuk menyambungkan server dengan Linux Desktop dengan menggunakan command "$ ip a"
+8. Buka machine Linux Desktop
+9. Install OpenSSH di terminal dengan menggunakan command "$ sudo apt install openssh-client"
+10. Setelah terinstall, cek status OpenSSH dengan menggunakan command "$ sudo apt status ssh"
+11. Apabila OpenSSH sudah berjalan, input command "username@ipadress" untuk menyambungkan server dengan Linux Desktop (username : zkraaa, ip adress : 192.168.52.95)
+12. Server sudah tersambung. 
